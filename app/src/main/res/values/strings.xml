@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Agenda Amigos Semana 10</string>
+    <string name="menu_insertar">Nuevo Contacto</string>
+    <string name="menu_listar">Lista</string>
+    <string name="menu_Acercade">Acerca de</string>
+
+    <string name="htn_nombre">Ingrese el nombre</string>
+    <string name="htn_telefono">Ingrese el telefono</string>
+    <string name="htn_correo">Ingrese el correo</string>
+    <string name="btnmodificar">Guardar Cambios</string>
+    <string name="btnnuevo">Agregar Contacto</string>
+
+    //Acerca de
+    <string name="tituacerca">ACERCA DE</string>
+    <string name="Acerca">La presente aplicacion llamada Agenda amigos es sobre una aplicación que funciona como una agenda de contactos donde se puede ingresar la información de personas para comunicarse con ellos ya que se tiene que rellenar el nombre, numero de celular y correo en los campos correspondientes para guardar el contacto, se ha generado el apk de la aplicación y se ha insertado un incono que distinga a la app.</string>
+    <string name="hecho">Realizado por el estudiante: Juan Carlos Mejía. En el año 2022</string>
+</resources>

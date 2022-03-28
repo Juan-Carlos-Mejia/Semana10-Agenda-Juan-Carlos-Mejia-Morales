@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EE3A1"
+    tools:context=".Acercade">
+
+    <TextView
+        android:id="@+id/tvacerca"
+        android:layout_width="394dp"
+        android:layout_height="374dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Acerca"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitu" />
+
+    <TextView
+        android:id="@+id/tvTitu"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tituacerca"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvacerca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvhecho"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/hecho"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvacerca" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

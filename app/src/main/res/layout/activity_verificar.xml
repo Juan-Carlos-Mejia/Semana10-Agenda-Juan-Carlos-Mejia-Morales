@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EE3A1"
+    android:orientation="vertical"
+    tools:context=".Verificar">
+
+    <TextView
+        android:id="@+id/tvNombreV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/edtNombre"
+        android:text="@string/htn_nombre"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/edtxNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvTelefonoV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/edtxTelefono"
+        android:text="@string/htn_telefono" />
+
+    <EditText
+        android:id="@+id/edtxTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvCorreoV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/edtxCorreo"
+        android:text="@string/htn_correo" />
+
+    <EditText
+        android:id="@+id/edtxCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnmodificar" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9EE3A1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|right"
+            android:gravity="right">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fltIcoEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right|center_vertical"
+                android:clickable="true"
+                android:src="@drawable/ic_edit"
+                app:backgroundTint="#60FAEB"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fltIcoDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:clickable="true"
+                app:backgroundTint="#F15D5D"
+                app:srcCompat="@drawable/ic_delete"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9EE3A1" />
+    </TableLayout>
+
+</LinearLayout>
